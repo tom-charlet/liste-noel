@@ -18,6 +18,8 @@ header {
     align-items: flex-end;
     padding: 0 2rem;
     font-size: 0.8rem;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 main {
@@ -25,6 +27,8 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .card {
@@ -38,7 +42,8 @@ main {
 }
 
 .image {
-    aspect-ratio: 1;
+    height: 50%;
+    width: 100%;
 }
 
 .image img {
@@ -60,10 +65,18 @@ main {
     gap: 0.5rem;
 }
 
+.title {
+    font-size: 1.2rem;
+}
+
+.label {
+    font-size: 0.9rem;
+}
+
 .price {
     color: #3b82f6;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
     align-self: end;
 }
 
